@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :vi do
-      get 'ideas/index'
+      resources :ideas 
     end
   end
 
